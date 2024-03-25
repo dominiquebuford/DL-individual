@@ -112,7 +112,7 @@ class CocoTrainer(DefaultTrainer):
         return build_detection_test_loader(cfg, dataset_name, mapper=custom_mapper)
     
 def main():
-    gcloud_initiation()
+    #gcloud_initiation()
     #grab_images()
     register_coco_instances("my_dataset_train", {}, "data/train_annotations.json", "data/train")
     register_coco_instances("my_dataset_val", {}, "data/val_annotations.json", "data/val")
