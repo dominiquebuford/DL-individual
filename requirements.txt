@@ -1,0 +1,6 @@
+git+https://github.com/facebookresearch/detectron2.git
+opencv-python
+google-cloud-storage
+torch
+torchvision
+torchaudio
