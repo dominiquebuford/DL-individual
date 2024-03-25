@@ -30,7 +30,7 @@ def gcloud_initiation():
         print(f"Error running gcloud init: {e}")
 
     # Upload the JSON key file
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '../../../Desktop/service-account-key.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './service-account-key.json'
 
 def grab_images():
     bucket_name = 'dl-individual-project'
