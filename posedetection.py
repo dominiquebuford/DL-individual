@@ -155,7 +155,11 @@ def main():
     trainer.resume_or_load(resume=False)
     trainer.train()
 
+    os.makedirs("final_model_paths")
+    save_path = 'final_model_paths/finalPose.pth'
+    torch.save(trainer.model.state_dict(), save_path)
 
+    
 if __name__ == "__main__":
     main()
 
