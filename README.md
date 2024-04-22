@@ -21,9 +21,6 @@ This directory houses Jupyter notebooks for:
 - Notebook for processing the points for my attempt at comparing each point to point in classification
 - Notebook for preprocessing the keypoints prior to putting them in for classification.
 
-### `final models`
-This directory contains the weights for the GAN and classification models. I could not include the pose detection weights in github given their large size.
-
 ### `scripts`
 Scripts in this folder include:
 - `GAN.py`: Implements the GAN model.
